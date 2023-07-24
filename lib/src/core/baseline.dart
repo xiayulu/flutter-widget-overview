@@ -7,16 +7,20 @@ class ExBaseLine extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        width: 100,
-        height: 100,
+        width: 400,
+        height: 400,
         color: Colors.green,
         child: Baseline(
-          baseline: 50,
+          baseline: 100,
           baselineType: TextBaseline.ideographic,
           child: Container(
-            width: 50,
-            height: 50,
+            width: 350,
+            height: 300,
             color: Colors.purple,
+            child: const Text(
+              "你好, Flutter",
+              style: TextStyle(color: Colors.white, fontSize: 36),
+            ),
           ),
         ),
       ),
