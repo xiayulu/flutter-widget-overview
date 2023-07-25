@@ -28,7 +28,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: Center(child: ExCustomScrollView()),
+        body: Center(child: ExGestureDetector()),
       ),
     );
   }
