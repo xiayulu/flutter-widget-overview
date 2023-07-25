@@ -1,4 +1,4 @@
-# Flutter Buildin Widgets
+# Flutter Built-in Widgets
 
 - [Layout](layout/README.md)
 - [Container](container/README.md)

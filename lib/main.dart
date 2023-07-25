@@ -32,7 +32,7 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Flutter buildin Widgets"),
+          title: Text("Flutter Built-in Widgets"),
         ),
         body: Center(child: ExButton()),
       ),
