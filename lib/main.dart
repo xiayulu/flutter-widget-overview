@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lab/src/actions/Dismissible.dart';
 import 'package:lab/src/actions/alert_dialog.dart';
+import 'package:lab/src/actions/buttons.dart';
 import 'package:lab/src/container/align.dart';
 import 'package:lab/src/layout/baseline.dart';
 import 'package:lab/src/container/center.dart';
@@ -27,11 +28,15 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      // home: Scaffold(
-      //   body: Center(child: ExGestureDetector()),
-      // ),
-      home: ExScafold(),
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text("Flutter buildin Widgets"),
+        ),
+        body: Center(child: ExButton()),
+      ),
+      // home: ExScafold(),
     );
   }
 }

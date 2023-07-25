@@ -129,4 +129,3 @@ Widget _withoutLimitedBox() {
 
 ## References
 
-- [Flutter widgets cheat sheet](https://blog.codemagic.io/flutter-widget-cheat-sheet/)
