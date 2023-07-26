@@ -10,6 +10,10 @@ import 'package:lab/src/layout/column.dart';
 import 'package:lab/src/container/container.dart';
 import 'package:lab/src/layout/flex.dart';
 import 'package:lab/src/layout/scafold.dart';
+import 'package:lab/src/paint/clip_path.dart';
+import 'package:lab/src/paint/clip_rect.dart';
+import 'package:lab/src/paint/decorated_box.dart';
+import 'package:lab/src/paint/inkwell.dart';
 import 'package:lab/src/scroll/custom_scroll_view.dart';
 import 'package:lab/src/layout/expanded.dart';
 import 'package:lab/src/actions/gesture_detector.dart';
@@ -36,7 +40,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: Center(child: ExFAB()),
+        body: Center(child: ExClipPath()),
       ),
     );
   }

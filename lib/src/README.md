@@ -35,6 +35,15 @@
 - SingleChildScrollView
 - CustomScrollView
 
+### [Paint widgets](paint/README.md)
+
+- InkWell
+- DecoratedBox
+- ClipRect
+- ClipPath
+
+
+
 ## References
 
 - https://docs.flutter.dev/ui/widgets
