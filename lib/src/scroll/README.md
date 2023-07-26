@@ -1,6 +1,6 @@
 # Scrollable widgets
 
-## ListView Builder
+## ListView
 
 **ListView Builder** is the most used scrollable widget. It displays its children in the scroll direction one after the other. For example, if you have a long list that is dynamically created, you can use `Listview.builder` to display it.
 

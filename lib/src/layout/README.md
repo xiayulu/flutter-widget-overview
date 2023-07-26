@@ -115,7 +115,53 @@ class ExScafold extends StatelessWidget {
 }
 ```
 
-## Row
+## [Flex](https://api.flutter-io.cn/flutter/widgets/Flex-class.html)
+
+> A widget that displays its children in a one-dimensional array.
+>
+> - The [Flex](https://api.flutter-io.cn/flutter/widgets/Flex-class.html) widget does not scroll. If you have some widgets and want them to be able to scroll if there is insufficient room, consider using a [ListView](https://api.flutter-io.cn/flutter/widgets/ListView-class.html).
+> - The [Flex](https://api.flutter-io.cn/flutter/widgets/Flex-class.html) widget does not allow its children to wrap across multiple horizontal or vertical runs. For a widget that allows its children to wrap, consider using the [Wrap](https://api.flutter-io.cn/flutter/widgets/Wrap-class.html) widget instead of [Flex](https://api.flutter-io.cn/flutter/widgets/Flex-class.html).
+> - If you only have one child, then rather than using [Flex](https://api.flutter-io.cn/flutter/widgets/Flex-class.html), [Row](https://api.flutter-io.cn/flutter/widgets/Row-class.html), or [Column](https://api.flutter-io.cn/flutter/widgets/Column-class.html), consider using [Align](https://api.flutter-io.cn/flutter/widgets/Align-class.html) or [Center](https://api.flutter-io.cn/flutter/widgets/Center-class.html) to position the child.
+
+```dart
+import 'package:flutter/material.dart';
+
+class ExFlex extends StatelessWidget {
+  const ExFlex({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      color: Colors.grey,
+      height: 150,
+      child: Flex(
+        direction: Axis.horizontal,
+        children: [
+          Container(
+            width: 100,
+            height: 50,
+            color: Colors.lime,
+          ),
+          Container(
+            width: 100,
+            height: 10,
+            color: Colors.purple,
+          ),
+          Container(
+            width: 100,
+            height: 100,
+            color: Colors.orangeAccent,
+          ),
+        ],
+      ),
+    );
+  }
+}
+```
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+## [Row](https://api.flutter-io.cn/flutter/widgets/Row-class.html)
 
 The **Row** widget takes a list of widgets and arranges them horizontally. You will likely use this widget a lot when making layouts in your code.
 
@@ -138,7 +184,7 @@ Row(
 );
 ```
 
-## Column
+## [Column](https://api.flutter-io.cn/flutter/widgets/Column-class.html)
 
 The **Column** widget allows you to arrange a list of widgets vertically, similar to how the **Row** widget aligns them horizontally.
 
@@ -194,3 +240,6 @@ Row(
 >
 > If you do not need a child, use `Spacer`.
 
+## References
+
+- https://docs.flutter.dev/ui/layout

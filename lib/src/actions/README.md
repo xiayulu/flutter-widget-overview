@@ -47,6 +47,31 @@ class ExButton extends StatelessWidget {
 }
 ```
 
+## [FloatingActionButton](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
+
+A floating action button is a circular icon button that hovers over content to promote a primary action in the application. Floating action buttons are most commonly used in the [Scaffold.floatingActionButton](https://api.flutter.dev/flutter/material/Scaffold/floatingActionButton.html) field.
+
+```dart
+import 'package:flutter/material.dart';
+
+class ExFAB extends StatelessWidget {
+  const ExFAB({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Add your onPressed code here!
+        },
+        backgroundColor: Colors.green,
+        child: const Icon(Icons.navigation),
+      ),
+    );
+  }
+}
+```
+
 ## [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
 
 - `onTap` include:

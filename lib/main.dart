@@ -2,11 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:lab/src/actions/Dismissible.dart';
 import 'package:lab/src/actions/alert_dialog.dart';
 import 'package:lab/src/actions/buttons.dart';
+import 'package:lab/src/actions/fab.dart';
 import 'package:lab/src/container/align.dart';
 import 'package:lab/src/layout/baseline.dart';
 import 'package:lab/src/container/center.dart';
 import 'package:lab/src/layout/column.dart';
 import 'package:lab/src/container/container.dart';
+import 'package:lab/src/layout/flex.dart';
 import 'package:lab/src/layout/scafold.dart';
 import 'package:lab/src/scroll/custom_scroll_view.dart';
 import 'package:lab/src/layout/expanded.dart';
@@ -34,9 +36,8 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: Center(child: ExButton()),
+        body: Center(child: ExFAB()),
       ),
-      // home: ExScafold(),
     );
   }
 }

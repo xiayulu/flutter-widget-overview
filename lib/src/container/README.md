@@ -93,7 +93,9 @@ Center(
 )
 ```
 
-![A diagram showing the line terms used in typography, with the baseline highlighted.](assets/2560px-Typography_Line_Terms.svg.png)
+
+
+![baseline](https://upload.wikimedia.org/wikipedia/commons/3/39/Typography_Line_Terms.svg)
 
 ## LimitedBox
 
@@ -124,8 +126,6 @@ Widget _withoutLimitedBox() {
   );
 }
 ```
-
-
 
 ## References
 
