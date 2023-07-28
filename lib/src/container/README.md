@@ -127,5 +127,9 @@ Widget _withoutLimitedBox() {
 }
 ```
 
+## [FutureBuilder](https://api.flutter.dev/flutter/widgets/FutureBuilder-class.html)
+
+A widget that builds itself based on the latest snapshot of interaction with a [Future](https://api.flutter.dev/flutter/dart-async/Future-class.html).
+
 ## References
 
