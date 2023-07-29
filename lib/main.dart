@@ -6,6 +6,7 @@ import 'package:lab/src/actions/fab.dart';
 import 'package:lab/src/container/align.dart';
 import 'package:lab/src/container/future_builder.dart';
 import 'package:lab/src/form/form.dart';
+import 'package:lab/src/form/text_field.dart';
 import 'package:lab/src/layout/baseline.dart';
 import 'package:lab/src/container/center.dart';
 import 'package:lab/src/layout/column.dart';
@@ -37,12 +38,13 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // home: ExScafold(),
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: Center(child: ExForm()),
+        body: Center(child: ExTextField()),
       ),
     );
   }

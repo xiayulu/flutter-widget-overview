@@ -8,14 +8,16 @@ class ExScafold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: FlutterLogo(),
-        title: Text("Cart"),
-        actions: [Icon(Icons.search)],
-      ),
+      // appBar: AppBar(
+      //   leading: FlutterLogo(),
+      //   title: Text("Cart"),
+      //   centerTitle: true,
+      //   actions: [Icon(Icons.search)],
+      // ),
       backgroundColor: Color(0xFFf1f2f3),
-      body: Center(
+      body: SingleChildScrollView(
         child: Container(
+          height: 1000,
           color: Colors.pinkAccent.shade100,
           child: Text("Flutter"),
         ),
