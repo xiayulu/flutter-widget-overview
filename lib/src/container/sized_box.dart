@@ -6,7 +6,7 @@ class ExSizedBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 200.0,
+      width: 280.0,
       height: 200.0,
       child: Container(
         color: Colors.pink,

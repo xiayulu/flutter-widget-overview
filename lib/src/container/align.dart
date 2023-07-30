@@ -8,9 +8,10 @@ class ExAlign extends StatelessWidget {
     return Container(
       height: 120.0,
       width: 120.0,
-      color: Colors.blue[50],
+      color: Colors.blue.shade50,
       child: const Align(
-        alignment: Alignment.topRight,
+        alignment: Alignment.center,
+        widthFactor: 0.5,
         child: FlutterLogo(
           size: 60,
         ),

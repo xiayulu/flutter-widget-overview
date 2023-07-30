@@ -4,7 +4,7 @@
 
 ## [Container](https://api.flutter.dev/flutter/widgets/Container-class.html)
 
-A convenience widget that combines common painting, positioning, and sizing widgets.
+> A convenience widget that combines common painting, positioning, and sizing widgets.
 
 ```dart
 import 'package:flutter/material.dart';
@@ -26,7 +26,7 @@ class ExContainer extends StatelessWidget {
 
 ## Center
 
-This widget centers a child within itself.
+> This widget centers a child within itself.
 
 ```dart
 Center( child: Text('Center me')),

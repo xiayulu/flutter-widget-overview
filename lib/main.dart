@@ -47,7 +47,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: Center(child: ExCheckbox()),
+        body: Center(child: ExSizedBox()),
       ),
     );
   }
