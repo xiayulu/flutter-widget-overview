@@ -7,6 +7,7 @@ import 'package:lab/src/actions/buttons.dart';
 import 'package:lab/src/actions/fab.dart';
 import 'package:lab/src/container/align.dart';
 import 'package:lab/src/container/future_builder.dart';
+import 'package:lab/src/form/check_box.dart';
 import 'package:lab/src/form/form.dart';
 import 'package:lab/src/form/text_field.dart';
 import 'package:lab/src/layout/baseline.dart';
@@ -46,7 +47,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: Center(child: ExExPanded()),
+        body: Center(child: ExCheckbox()),
       ),
     );
   }
