@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:lab/src/actions/Dismissible.dart';
 import 'package:lab/src/actions/alert_dialog.dart';
@@ -44,7 +46,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: Center(child: ExTextField()),
+        body: Center(child: ExExPanded()),
       ),
     );
   }

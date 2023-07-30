@@ -12,12 +12,14 @@ class ExExPanded extends StatelessWidget {
           height: 100,
           width: 50,
         ),
-        Expanded(
-          child: Container(
-            color: Colors.amber,
-            height: 100,
-          ),
-        ),
+        // Expanded(
+        //   child: Container(
+        //     color: Colors.white,
+        //     height: 100,
+        //     child: Text("Expanded"),
+        //   ),
+        // ),
+        Spacer(),
         Container(
           color: Colors.green,
           height: 100,

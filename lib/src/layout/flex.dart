@@ -7,9 +7,10 @@ class ExFlex extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: Colors.grey,
-      height: 150,
+      height: 160,
       child: Flex(
         direction: Axis.horizontal,
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           Container(
             width: 100,
