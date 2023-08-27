@@ -11,7 +11,7 @@ class ExBaseLine extends StatelessWidget {
         height: 400,
         color: Colors.green,
         child: Baseline(
-          baseline: 100,
+          baseline: 0,
           baselineType: TextBaseline.ideographic,
           child: Container(
             width: 350,

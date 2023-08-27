@@ -11,6 +11,7 @@ class ExFlex extends StatelessWidget {
       child: Flex(
         direction: Axis.horizontal,
         mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           Container(
             width: 100,
