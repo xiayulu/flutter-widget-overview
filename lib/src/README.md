@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-### [Layout Widgets](layout/README.md)
+### Layout Widgets
 
 - [MaterialApp](layout/materialapp/README.md)
 - [Scaffold](layout/scaffold/README.md)
@@ -16,7 +16,7 @@
 - [Constraint](layout/constraint/README.md)
 - [BaseLine](container/baseline/README.md)
 
-### [Container Widgets](container/README.md)
+### Container Widgets
 
 - [Container](container/container/README.md)
 - [Center](container/container/README.md)
@@ -31,14 +31,14 @@
 - [RichText](content/text/README.md)
 - [Image](content/image/README.md)
 
-### [Actions Widgets](actions/README.md)
+### Actions Widgets
 
-- Button
-- GestureDetector
-- AlertDialog
-- SnackBar
-- Dismissible
-- InteractiveViewer
+- [Buttons](actions/buttons/README.md)
+- [GestureDetector](actions/gesture_detector/README.md)
+- [AlertDialog](actions/alert_dialog/README.md)
+- [SnackBar](actions/snack_bar/README.md)
+- [Dismissible](actions/dismissible/README.md)
+- [InteractiveViewer](actions/interactive_viewer/README.md)
 
 ### [Scrollable Widgets](scroll/README.md)
 
@@ -46,12 +46,6 @@
 - SingleChildScrollView
 - CustomScrollView
 
-### [Paint widgets](paint/README.md)
-
-- InkWell
-- DecoratedBox
-- ClipRect
-- ClipPath
 
 ### [Form Widgets](form/README.md)
 
@@ -61,6 +55,14 @@
 ### Util Widgets
 
 - FutureBuilder
+
+### [Paint widgets](paint/README.md)
+
+- InkWell
+- DecoratedBox
+- ClipRect
+- ClipPath
+
 
 ## References
 

@@ -2,11 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:lab/src/actions/Dismissible.dart';
-import 'package:lab/src/actions/alert_dialog.dart';
-import 'package:lab/src/actions/buttons.dart';
-import 'package:lab/src/actions/fab.dart';
+import 'package:lab/src/actions/alert_dialog/alert_dialog.dart';
+import 'package:lab/src/actions/buttons/button_style.dart';
+import 'package:lab/src/actions/buttons/buttons.dart';
+import 'package:lab/src/actions/buttons/fab.dart';
 import 'package:lab/src/container/container/align.dart';
-import 'package:lab/src/util/future_builder.dart';
+import 'package:lab/src/utils/future_builder.dart';
 import 'package:lab/src/layout/stack/stack.dart';
 import 'package:lab/src/content/image/image.dart';
 import 'package:lab/src/content/text/rich_text.dart';
@@ -29,14 +30,14 @@ import 'package:lab/src/paint/decorated_box.dart';
 import 'package:lab/src/paint/inkwell.dart';
 import 'package:lab/src/scroll/custom_scroll_view.dart';
 import 'package:lab/src/layout/flex/expanded.dart';
-import 'package:lab/src/actions/gesture_detector.dart';
-import 'package:lab/src/actions/interactive_viewer.dart';
+import 'package:lab/src/actions/gesture_detector/gesture_detector.dart';
+import 'package:lab/src/actions/interactive_viewer/interactive_viewer.dart';
 import 'package:lab/src/container/limited_box/limited_box.dart';
 import 'package:lab/src/scroll/list_view.dart';
 import 'package:lab/src/layout/flex/row.dart';
 import 'package:lab/src/scroll/single_scroll_view.dart';
 import 'package:lab/src/container/container/sized_box.dart';
-import 'package:lab/src/actions/snack_bar.dart';
+import 'package:lab/src/actions/snack_bar/snack_bar.dart';
 
 void main() {
   runApp(const MainApp());
@@ -54,7 +55,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: ExBaseLine(),
+        body: ExInteractiveViewer(),
       ),
     );
   }

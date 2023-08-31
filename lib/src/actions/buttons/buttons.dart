@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class ExButton extends StatelessWidget {
@@ -34,6 +36,7 @@ class ExButton extends StatelessWidget {
             onPressed: onPressed, child: const Text('Filled Tonal')),
         OutlinedButton(onPressed: onPressed, child: const Text('Outlined')),
         TextButton(onPressed: onPressed, child: const Text('Text')),
+        IconButton(onPressed: onPressed, icon: Icon(Icons.headphones)),
       ],
     );
   }

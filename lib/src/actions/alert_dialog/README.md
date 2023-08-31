@@ -1,5 +1,16 @@
-import 'package:flutter/material.dart';
+# [AlertDialog](https://api.flutter.dev/flutter/material/AlertDialog-class.html)
 
+> A Material Design alert dialog.
+>
+> An alert dialog (also known as a basic dialog) informs the user about situations that require acknowledgment. An alert dialog has an optional title and an optional list of actions. The title is displayed above the content and the actions are displayed below the content.
+>
+> For dialogs that offer the user a choice between several options, consider using a [SimpleDialog](https://api.flutter.dev/flutter/material/SimpleDialog-class.html).
+>
+> Typically passed as the child widget to [showDialog](https://api.flutter.dev/flutter/material/showDialog.html), which displays the dialog.
+
+**Example**
+
+```dart
 class ExAlertDialog extends StatelessWidget {
   const ExAlertDialog({super.key});
 
@@ -15,13 +26,13 @@ class ExAlertDialog extends StatelessWidget {
           color: Colors.lightBlue,
           borderRadius: BorderRadius.circular(8.0),
         ),
-        child: const Text('My Button'),
+        child: const Text('Show Dialog'),
       ),
     );
   }
 
   Future<void> _showMyDialog(BuildContext context) async {
-    return showDialog<void>(
+    return showDialog(
       context: context,
       barrierDismissible: false, // user must tap button!
       builder: (BuildContext context) {
@@ -48,3 +59,5 @@ class ExAlertDialog extends StatelessWidget {
     );
   }
 }
+```
+
