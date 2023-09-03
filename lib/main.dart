@@ -7,6 +7,7 @@ import 'package:lab/src/actions/buttons/buttons.dart';
 import 'package:lab/src/actions/buttons/fab.dart';
 import 'package:lab/src/actions/dismissable/dismissible.dart';
 import 'package:lab/src/container/container/align.dart';
+import 'package:lab/src/content/icon/icon.dart';
 import 'package:lab/src/scroll/animated_list/animated_list.dart';
 import 'package:lab/src/scroll/grid_view/grid_view.dart';
 import 'package:lab/src/scroll/page_view/page_view.dart';
@@ -59,7 +60,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: ExTabBarView(),
+        body: ExIcon(),
       ),
     );
   }

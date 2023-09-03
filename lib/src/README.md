@@ -30,6 +30,7 @@
 
 - [Text](content/text/README.md)
 - [RichText](content/text/README.md)
+- [Icon](content/icon/README.md)
 - [Image](content/image/README.md)
 
 ### Actions Widgets
