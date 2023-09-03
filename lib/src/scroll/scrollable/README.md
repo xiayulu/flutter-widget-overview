@@ -1,0 +1,19 @@
+# [Scrollable](https://api.flutter.dev/flutter/widgets/Scrollable-class.html)
+
+> A widget that manages scrolling in one dimension and informs the [Viewport](https://api.flutter.dev/flutter/widgets/Viewport-class.html) through which the content is viewed.
+>
+> [Scrollable](https://api.flutter.dev/flutter/widgets/Scrollable-class.html) implements the interaction model for a scrollable widget, including gesture recognition, but does not have an opinion about how the viewport, which actually displays the children, is constructed.
+>
+> It's rare to construct a [Scrollable](https://api.flutter.dev/flutter/widgets/Scrollable-class.html) directly. Instead, consider [ListView](https://api.flutter.dev/flutter/widgets/ListView-class.html) or [GridView](https://api.flutter.dev/flutter/widgets/GridView-class.html), which combine scrolling, viewporting, and a layout model. To combine layout models (or to use a custom layout mode), consider using [CustomScrollView](https://api.flutter.dev/flutter/widgets/CustomScrollView-class.html).
+
+## [Viewport](https://api.flutter.dev/flutter/widgets/Viewport-class.html)
+
+> A widget through which a portion of larger content can be viewed, typically in combination with a [Scrollable](https://api.flutter.dev/flutter/widgets/Scrollable-class.html).
+>
+> [Viewport](https://api.flutter.dev/flutter/widgets/Viewport-class.html) is the visual workhorse of the scrolling machinery. It displays a subset of its children according to its own dimensions and the given [offset](https://api.flutter.dev/flutter/widgets/Viewport/offset.html). As the offset varies, different children are visible through the viewport.
+>
+> [Viewport](https://api.flutter.dev/flutter/widgets/Viewport-class.html) hosts a bidirectional list of slivers, anchored on a [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html) sliver, which is placed at the zero scroll offset. The center widget is displayed in the viewport according to the [anchor](https://api.flutter.dev/flutter/widgets/Viewport/anchor.html) property.
+>
+> Slivers that are earlier in the child list than [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html) are displayed in reverse order in the reverse [axisDirection](https://api.flutter.dev/flutter/widgets/Viewport/axisDirection.html) starting from the [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html). For example, if the [axisDirection](https://api.flutter.dev/flutter/widgets/Viewport/axisDirection.html) is [AxisDirection.down](https://api.flutter.dev/flutter/painting/AxisDirection.html), the first sliver before [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html) is placed above the [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html). The slivers that are later in the child list than [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html) are placed in order in the [axisDirection](https://api.flutter.dev/flutter/widgets/Viewport/axisDirection.html). For example, in the preceding scenario, the first sliver after [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html) is placed below the [center](https://api.flutter.dev/flutter/widgets/Viewport/center.html).
+>
+> [Viewport](https://api.flutter.dev/flutter/widgets/Viewport-class.html) cannot contain box children directly. Instead, use a [SliverList](https://api.flutter.dev/flutter/widgets/SliverList-class.html), [SliverFixedExtentList](https://api.flutter.dev/flutter/widgets/SliverFixedExtentList-class.html), [SliverGrid](https://api.flutter.dev/flutter/widgets/SliverGrid-class.html), or a [SliverToBoxAdapter](https://api.flutter.dev/flutter/widgets/SliverToBoxAdapter-class.html), for example.
