@@ -10,6 +10,7 @@ import 'package:lab/src/container/container/align.dart';
 import 'package:lab/src/content/icon/icon.dart';
 import 'package:lab/src/form/autocomplete/autocomplete.dart';
 import 'package:lab/src/form/radio/radio.dart';
+import 'package:lab/src/layout/layout_builder/layout_builder.dart';
 import 'package:lab/src/scroll/animated_list/animated_list.dart';
 import 'package:lab/src/scroll/grid_view/grid_view.dart';
 import 'package:lab/src/scroll/page_view/page_view.dart';
@@ -62,7 +63,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: ExAutocompleteAsync(),
+        body: ExLayoutBuilder(),
       ),
     );
   }

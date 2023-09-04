@@ -14,7 +14,7 @@
 - [Wrap](layout/flow/README.md)
 - [Stack](layout/stack/README.md)
 - [Constraint](layout/constraint/README.md)
-- LayoutBuilder
+- [LayoutBuilder](layout/layout_builder/README.md)
 - [BaseLine](container/baseline/README.md)
 
 ### Container Widgets
@@ -63,14 +63,10 @@
 - [CheckBox](form/checkbox/README.md)
 
 
-### Util Widgets
+### MiscWidgets
 
 - FutureBuilder
-
-### [Paint widgets](paint/README.md)
-
 - InkWell
-- DecoratedBox
 - ClipRect
 - ClipPath
 
