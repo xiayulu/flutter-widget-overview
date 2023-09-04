@@ -8,6 +8,8 @@ import 'package:lab/src/actions/buttons/fab.dart';
 import 'package:lab/src/actions/dismissable/dismissible.dart';
 import 'package:lab/src/container/container/align.dart';
 import 'package:lab/src/content/icon/icon.dart';
+import 'package:lab/src/form/autocomplete/autocomplete.dart';
+import 'package:lab/src/form/radio/radio.dart';
 import 'package:lab/src/scroll/animated_list/animated_list.dart';
 import 'package:lab/src/scroll/grid_view/grid_view.dart';
 import 'package:lab/src/scroll/page_view/page_view.dart';
@@ -17,9 +19,9 @@ import 'package:lab/src/layout/stack/stack.dart';
 import 'package:lab/src/content/image/image.dart';
 import 'package:lab/src/content/text/rich_text.dart';
 import 'package:lab/src/content/text/text.dart';
-import 'package:lab/src/form/check_box.dart';
-import 'package:lab/src/form/form.dart';
-import 'package:lab/src/form/text_field.dart';
+import 'package:lab/src/form/checkbox/check_box.dart';
+import 'package:lab/src/form/form/form.dart';
+import 'package:lab/src/form/text_field/text_field.dart';
 import 'package:lab/src/layout/baseline/baseline.dart';
 import 'package:lab/src/container/container/center.dart';
 import 'package:lab/src/layout/flex/column.dart';
@@ -60,7 +62,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: ExIcon(),
+        body: ExAutocompleteAsync(),
       ),
     );
   }

@@ -16,10 +16,13 @@ class _ExFormState extends State<ExForm> {
       key: _formKey,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
+        children: [
           TextFormField(
+            autofocus: true,
+            keyboardType: TextInputType.emailAddress,
             decoration: const InputDecoration(
               hintText: 'Enter your email',
+              prefixIcon: Icon(Icons.mail),
             ),
             validator: (String? value) {
               if (value == null || value.isEmpty) {
