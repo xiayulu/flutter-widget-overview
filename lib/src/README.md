@@ -2,6 +2,15 @@
 
 ## Table of Contents
 
+### Content Widgets
+
+- [Text](content/text/README.md)
+- [RichText](content/text/README.md)
+- [Icon](content/icon/README.md)
+- [Image](content/image/README.md)
+- ListTile
+- Badge
+
 ### Layout Widgets
 
 - [MaterialApp](layout/materialapp/README.md)
@@ -16,6 +25,7 @@
 - [Constraint](layout/constraint/README.md)
 - [LayoutBuilder](layout/layout_builder/README.md)
 - [BaseLine](container/baseline/README.md)
+- [NavigationBar](layout/navigation_bar/README.md)
 
 ### Container Widgets
 
@@ -25,13 +35,6 @@
 - [SizedBox](container/container/README.md)
 - [DecoratedBox](container/container/README.md)
 - [LimitedBox](container/limited_box/README.md)
-
-### Content Widgets
-
-- [Text](content/text/README.md)
-- [RichText](content/text/README.md)
-- [Icon](content/icon/README.md)
-- [Image](content/image/README.md)
 
 ### Actions Widgets
 
@@ -61,7 +64,6 @@
 - [Form](form/form/README.md)
 - [Radio](form/radio/README.md)
 - [CheckBox](form/checkbox/README.md)
-
 
 ### MiscWidgets
 
