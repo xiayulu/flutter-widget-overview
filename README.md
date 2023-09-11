@@ -2,14 +2,14 @@
 
 ## Goals
 
-- Kown Common Flutter Built-in Widgets
+- Know Common Flutter Built-in Widgets
 - Can Develop Simple Page using Flutter Built-in Widgets
 - Gain Knowledge of Flutter
 
 ## Pre Requirements
 
-- Kown a Programming Language
-- Kown Some Programming Tools
+- Know a Programming Language
+- Know Some Programming Tools
 
 ## Plan
 
