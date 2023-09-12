@@ -8,9 +8,9 @@
 - [RichText](content/text/README.md)
 - [Icon](content/icon/README.md)
 - [Image](content/image/README.md)
-- [ListTile](content/list_tile/)
-- Badge
-- Card
+- [Badge](content/badge/README.md)
+- [ListTile](content/list_tile/README.md)
+- [Card](content/card/README.md)
 
 ### Layout Widgets
 
