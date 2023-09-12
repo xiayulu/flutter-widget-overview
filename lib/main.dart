@@ -8,6 +8,7 @@ import 'package:lab/src/actions/buttons/fab.dart';
 import 'package:lab/src/actions/dismissable/dismissible.dart';
 import 'package:lab/src/container/container/align.dart';
 import 'package:lab/src/content/badge/badge.dart';
+import 'package:lab/src/content/card/card.dart';
 import 'package:lab/src/content/icon/icon.dart';
 import 'package:lab/src/content/list_tile/list_tile.dart';
 import 'package:lab/src/form/autocomplete/autocomplete.dart';
@@ -66,7 +67,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: ExBadge(),
+        body: ExCard(),
       ),
     );
   }
