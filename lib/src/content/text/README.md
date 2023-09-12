@@ -63,6 +63,12 @@ SelectionArea(
 
 > Long press on amulator to select.
 
+
+
+## Exercise
+
+- Run examples
+
 ## [RichText](https://api.flutter.dev/flutter/widgets/RichText-class.html)
 
 > - The [RichText](https://api.flutter.dev/flutter/widgets/RichText-class.html) widget displays text that uses multiple different styles. The text to display is described using a tree of [TextSpan](https://api.flutter.dev/flutter/painting/TextSpan-class.html) objects, each of which has an associated style that is used for that subtree. The text might break across multiple lines or might all be displayed on the same line depending on the layout constraints.
@@ -124,3 +130,6 @@ class ExRichText extends StatelessWidget {
 }
 ```
 
+## Exercise
+
+- Run examples

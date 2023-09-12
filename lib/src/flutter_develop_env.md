@@ -42,7 +42,7 @@
 
 2. 添加 Android 到 Windows 环境变量
 
-   > 右击 桌面 [此电脑]->[高级系统设置]->[环境变量]->[系统变量]->[Path]->[新建]
+   > 右击 桌面 [此电脑]->[高级系统设置]->[环境变量]->env[系统变量]->[Path]->[新建]
    > （例如 C:\Users\用户名\AppData\Local\Android\Sdk\platform-tools）
 
 3. 配置 Android 设备

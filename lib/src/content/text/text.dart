@@ -11,17 +11,21 @@ class ExText extends StatelessWidget {
       width: 300,
       height: 300,
       color: Colors.amber.shade100,
-      child: _buildBasic(),
+      child: _buildSelect(),
     );
   }
 
   Widget _buildBasic() {
     return Text(
-      '你好, Flutter? 233333',
+      'Hello, Text Widget' * 3,
       // 'The Text widget displays a string of text with single style. The string might break across multiple lines or might all be displayed on the same line depending on the layout constraints.',
-      // textAlign: TextAlign.center,
-      overflow: TextOverflow.ellipsis,
-      style: const TextStyle(fontWeight: FontWeight.bold),
+      // maxLines: 2,
+      // overflow: TextOverflow.ellipsis,
+      style: const TextStyle(
+        fontWeight: FontWeight.bold,
+        fontSize: 28,
+        color: Colors.green,
+      ),
     );
   }
 
@@ -31,18 +35,21 @@ class ExText extends StatelessWidget {
         "中文",
         style: TextStyle(
           fontSize: 24,
+          height: 1,
         ),
       ),
       Text(
         "123",
         style: TextStyle(
           fontSize: 24,
+          // height: 1,
         ),
       ),
       Text(
         "English",
         style: TextStyle(
           fontSize: 24,
+          // height: 1,
         ),
       ),
     ]);

@@ -16,9 +16,10 @@ class ExRichText extends StatelessWidget {
     return RichText(
       text: TextSpan(
         text: 'Hello ',
-        style: DefaultTextStyle.of(context)
-            .style
-            .copyWith(fontSize: 24, color: Colors.blue),
+        style: TextStyle(fontSize: 24, color: Colors.red),
+        // DefaultTextStyle.of(context)
+        //     .style
+        //     .copyWith(fontSize: 24, color: Colors.blue),
         children: const [
           TextSpan(
             text: 'bold',
