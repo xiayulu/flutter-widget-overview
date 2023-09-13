@@ -7,10 +7,12 @@ class ExBadge extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     
     return Container(
       alignment: Alignment.center,
       child: Badge(
-        label: Text("···"),
+        label: Text("99+"),
+        // smallSize: 12,
         child: Icon(
           Icons.message,
           size: 32,

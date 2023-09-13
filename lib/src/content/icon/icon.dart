@@ -2,13 +2,14 @@
 
 import 'package:fluentui_system_icons/fluentui_system_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class ExIcon extends StatelessWidget {
   const ExIcon({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return _buildFluentIcon();
+    return _buildBasic();
   }
 
   Widget _buildBasic() {
@@ -16,7 +17,7 @@ class ExIcon extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
         Icon(
-          Icons.favorite,
+          Icons.autorenew,
           color: Colors.pink,
           size: 24.0,
           semanticLabel: 'Text to announce in accessibility modes',
@@ -27,10 +28,11 @@ class ExIcon extends StatelessWidget {
           size: 30.0,
         ),
         Icon(
-          Icons.beach_access,
+          Icons.navigate_next,
           color: Colors.blue,
           size: 36.0,
         ),
+        Icon(FontAwesomeIcons.thumbsUp, color: Colors.red),
       ],
     );
   }

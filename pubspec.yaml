@@ -10,6 +10,7 @@ dependencies:
   fluentui_system_icons: ^1.1.211
   flutter:
     sdk: flutter
+  font_awesome_flutter: ^10.5.0
 
 dev_dependencies:
   flutter_test:

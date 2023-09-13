@@ -16,7 +16,7 @@ class ExListTile extends StatelessWidget {
         Card(child: ListTile(title: Text('One-line ListTile'))),
         Card(
           child: ListTile(
-            leading: FlutterLogo(),
+            leading: Icon(Icons.add),
             title: Text('One-line with leading widget'),
           ),
         ),
@@ -30,7 +30,12 @@ class ExListTile extends StatelessWidget {
           child: ListTile(
             leading: FlutterLogo(),
             title: Text('One-line with both widgets'),
-            trailing: Icon(Icons.more_vert),
+            trailing: IconButton(
+              icon: Icon(Icons.more_vert),
+              onPressed: () {
+                print("actions 666");
+              },
+            ),
           ),
         ),
         Card(
@@ -52,7 +57,7 @@ class ExListTile extends StatelessWidget {
             leading: FlutterLogo(size: 72.0),
             title: Text('Three-line ListTile'),
             subtitle:
-                Text('A sufficiently long subtitle warrants three lines.'),
+                Text('A sufficiently long subtitle warrants three lines.' * 5),
             trailing: Icon(Icons.more_vert),
             isThreeLine: true,
           ),
@@ -65,7 +70,7 @@ class ExListTile extends StatelessWidget {
     return ListView(
       children: [
         ListTile(
-          leading: CircleAvatar(child: Text('A')),
+          leading: CircleAvatar(child: Icon(Icons.headphones)),
           title: Text('Headline'),
           subtitle: Text('Supporting text'),
           trailing: Icon(Icons.favorite_rounded),
@@ -100,7 +105,7 @@ class ListTileApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(useMaterial3: true),
-      home: const CustomListItemExample(),
+      home: const ListTileMaterialExample(),
     );
   }
 }

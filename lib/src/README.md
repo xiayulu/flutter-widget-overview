@@ -9,8 +9,8 @@
 - [Icon](content/icon/README.md)
 - [Image](content/image/README.md)
 - [Badge](content/badge/README.md)
-- [ListTile](content/list_tile/README.md)
 - [Card](content/card/README.md)
+- [ListTile](content/list_tile/README.md)
 
 ### Layout Widgets
 
