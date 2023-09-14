@@ -10,3 +10,4 @@
 > - theme
 > - locale
 
+## Examples

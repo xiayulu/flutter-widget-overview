@@ -6,11 +6,11 @@ class ExAlign extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 120.0,
-      width: 120.0,
+      height: 200.0,
+      width: 200.0,
       color: Colors.blue.shade50,
       child: const Align(
-        alignment: Alignment.center,
+        alignment: Alignment.topRight,
         widthFactor: 0.5,
         child: FlutterLogo(
           size: 60,

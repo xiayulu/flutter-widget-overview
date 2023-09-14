@@ -12,6 +12,16 @@
 - [Card](content/card/README.md)
 - [ListTile](content/list_tile/README.md)
 
+### Container Widgets
+
+- [Container](container/container/README.md)
+- [Center](container/container/README.md)
+- [Align](container/container/README.md)
+- [SizedBox](container/container/README.md)
+- [DecoratedBox](container/container/README.md)
+- [LimitedBox](container/limited_box/README.md)
+
+
 ### Layout Widgets
 
 - [MaterialApp](layout/materialapp/README.md)
@@ -28,14 +38,6 @@
 - [BaseLine](container/baseline/README.md)
 - [NavigationBar](layout/navigation_bar/README.md)
 
-### Container Widgets
-
-- [Container](container/container/README.md)
-- [Center](container/container/README.md)
-- [Align](container/container/README.md)
-- [SizedBox](container/container/README.md)
-- [DecoratedBox](container/container/README.md)
-- [LimitedBox](container/limited_box/README.md)
 
 ### Actions Widgets
 

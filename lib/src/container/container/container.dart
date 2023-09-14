@@ -13,8 +13,9 @@ class ExContainer extends StatelessWidget {
           decoration: BoxDecoration(
             color: Colors.pink.shade100,
             borderRadius: BorderRadius.circular(12),
+            border: Border.all(width: 1, color: Colors.red),
           ),
-          transform: Matrix4.rotationZ(0.1),
+          transform: Matrix4.rotationZ(0.5),
           child: const Text("Hello World"),
         ),
         Container(
@@ -29,10 +30,11 @@ class ExContainer extends StatelessWidget {
             shape: BoxShape.circle,
             boxShadow: const [
               BoxShadow(
-                  color: Colors.amber,
-                  offset: Offset(10, 10),
-                  blurRadius: 10,
-                  spreadRadius: 10)
+                color: Colors.amber,
+                offset: Offset(10, 10),
+                blurRadius: 10,
+                spreadRadius: 10,
+              )
             ],
             // borderRadius: BorderRadius.circular(12),
           ),
