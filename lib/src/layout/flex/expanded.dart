@@ -8,22 +8,30 @@ class ExExPanded extends StatelessWidget {
     return Row(
       children: <Widget>[
         Container(
-          color: Colors.blue,
-          height: 100,
-          width: 50,
+          // color: Colors.blue,
+          // height: 100,
+          // width: 50,
+          child: Icon(Icons.settings),
         ),
         // Expanded(
         //   child: Container(
         //     color: Colors.white,
         //     height: 100,
-        //     child: Text("Expanded"),
+        //     child: Container(
+        //       color: Colors.red,
+        //     ),
         //   ),
         // ),
+        SizedBox(
+          width: 16,
+        ),
+        Text("Settings"),
         Spacer(),
         Container(
-          color: Colors.green,
-          height: 100,
-          width: 50,
+          // color: Colors.green,
+          // height: 100,
+          // width: 50,
+          child: Icon(Icons.navigate_next),
         ),
       ],
     );

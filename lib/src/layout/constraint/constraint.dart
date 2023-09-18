@@ -19,10 +19,10 @@ class ExConstrainedBox extends StatelessWidget {
       constraints: BoxConstraints(
         minHeight: 100.0,
         maxHeight: 120,
-        maxWidth: 250,
+        maxWidth: 200,
       ),
       child: Container(
-        height: 50.0,
+        height: 150.0,
         width: 300,
         child: _redBox,
       ),
@@ -44,14 +44,14 @@ class ExConstrainedBox extends StatelessWidget {
           minHeight: 100,
           maxHeight: 100.0,
         ),
-        child: _redBox,
+        child: SizedBox(width: 250, child: _redBox),
       ),
     );
   }
 
   Widget _buildUnConstraint() {
     return ConstrainedBox(
-      constraints: BoxConstraints(minWidth: 60.0, minHeight: 100.0),
+      constraints: BoxConstraints(minWidth: 180.0, minHeight: 100.0),
       child: UnconstrainedBox(
         child: ConstrainedBox(
           constraints: BoxConstraints(minWidth: 90.0, minHeight: 20.0),

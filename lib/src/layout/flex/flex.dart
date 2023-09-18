@@ -10,22 +10,22 @@ class ExFlex extends StatelessWidget {
       height: 160,
       child: Flex(
         direction: Axis.horizontal,
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        crossAxisAlignment: CrossAxisAlignment.end,
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Container(
             width: 100,
-            height: 50,
+            height: 20,
             color: Colors.lime,
           ),
           Container(
             width: 100,
-            height: 10,
+            height: 200,
             color: Colors.purple,
           ),
           Container(
             width: 100,
-            height: 100,
+            height: 200,
             color: Colors.orangeAccent,
           ),
         ],

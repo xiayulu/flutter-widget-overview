@@ -18,12 +18,12 @@ class ExButtonStyle extends StatelessWidget {
         // shape: RoundedRectangleBorder(
         //   borderRadius: BorderRadius.circular(5.0),
         // ),
-        shape: BeveledRectangleBorder(
-          borderRadius: BorderRadius.circular(20.0),
-          side: const BorderSide(
-            style: BorderStyle.none,
-          ),
-        ),
+        // shape: BeveledRectangleBorder(
+        //   borderRadius: BorderRadius.circular(20.0),
+        //   side: const BorderSide(
+        //     style: BorderStyle.none,
+        //   ),
+        // ),
       ),
       onPressed: () => {},
       child: Text("Check Out"),
@@ -68,7 +68,7 @@ class ExButtonStyle extends StatelessWidget {
                 elevation: MaterialStateProperty.all(0),
                 backgroundColor: MaterialStateProperty.all(Color(0xffFCB605)),
                 shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(35))),
+                    borderRadius: BorderRadius.circular(999))),
               ),
               onPressed: () {},
               child: const Text(

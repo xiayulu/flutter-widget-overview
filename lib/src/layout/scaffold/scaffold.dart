@@ -10,24 +10,26 @@ class ExScafold extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: FlutterLogo(),
+        // leading: FlutterLogo(),
         title: Text("Cart"),
         centerTitle: true,
-        actions: [Icon(Icons.search)],
+        // actions: [Icon(Icons.search), Icon(Icons.qr_code)],
       ),
       backgroundColor: Color(0xFFf1f2f3),
       // body: SingleChildScrollView(
       //   child: Container(
       //     height: 1000,
+      //     width: 400,
       //     color: Colors.pinkAccent.shade100,
+      //     alignment: Alignment.center,
       //     child: Text("Flutter"),
       //   ),
       // ),
       body:_buildBody(),
-      drawer: _buildDrawer(),
-      endDrawer: _buildDrawer(),
-      persistentFooterButtons: _persistentFooterButtons(),
-      bottomSheet: _bottomSheet(),
+      // drawer: _buildDrawer(),
+      // endDrawer: _buildDrawer(),
+      // persistentFooterButtons: _persistentFooterButtons(),
+      // bottomSheet: _bottomSheet(),
       bottomNavigationBar: _bottomNavigationBar(),
       floatingActionButton: _floatingActionButton(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,

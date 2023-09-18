@@ -62,12 +62,13 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       // home: ExScafold(),
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: ExDecoratedBox(),
+        body: ExButtonStyle(),
       ),
     );
   }

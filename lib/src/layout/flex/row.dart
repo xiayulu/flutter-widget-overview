@@ -5,22 +5,27 @@ class ExRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        ElevatedButton(
-          child: const Text('Widget 1'),
-          onPressed: () => Navigator.pushNamed(context, '/second'),
-        ),
-        ElevatedButton(
-          child: const Text('Widget 2'),
-          onPressed: () => Navigator.pushNamed(context, '/third'),
-        ),
-        ElevatedButton(
-          child: const Text('Widget 3'),
-          onPressed: () => Navigator.pushNamed(context, '/fourth'),
-        ),
-      ],
+    return Container(
+      height: 200,
+      color: Colors.pink.shade100,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          ElevatedButton(
+            child: const Text('Widget 1'),
+            onPressed: () => Navigator.pushNamed(context, '/second'),
+          ),
+          ElevatedButton(
+            child: const Text('Widget 2'),
+            onPressed: () => Navigator.pushNamed(context, '/third'),
+          ),
+          ElevatedButton(
+            child: const Text('Widget 3'),
+            onPressed: () => Navigator.pushNamed(context, '/fourth'),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -17,9 +17,9 @@ class ExWrap extends StatelessWidget {
     return Wrap(
       spacing: 8.0, // gap between adjacent chips
       runSpacing: 12.0, // gap between lines
-      alignment: WrapAlignment.start,
-      runAlignment: WrapAlignment.center,
-      crossAxisAlignment: WrapCrossAlignment.start,
+      alignment: WrapAlignment.spaceBetween,
+      runAlignment: WrapAlignment.end,
+      crossAxisAlignment: WrapCrossAlignment.center,
       children: [
         Container(
           color: Colors.red,

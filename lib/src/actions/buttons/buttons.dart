@@ -26,11 +26,12 @@ class ExButton extends StatelessWidget {
     return Column(
       children: [
         ElevatedButton(
-            onPressed: onPressed,
-            style: ButtonStyle(
-              backgroundColor: MaterialStateProperty.resolveWith(getColor),
-            ),
-            child: const Text('Elevated')),
+          onPressed: onPressed,
+          style: ButtonStyle(
+            backgroundColor: MaterialStateProperty.resolveWith(getColor),
+          ),
+          child: const Text('Elevated'),
+        ),
         FilledButton(onPressed: onPressed, child: const Text('Filled')),
         FilledButton.tonal(
             onPressed: onPressed, child: const Text('Filled Tonal')),
