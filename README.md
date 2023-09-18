@@ -23,12 +23,12 @@
 ### Content Widgets
 
 - [Text](content/text/README.md)>>> [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
-- [RichText](content/text/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" style="zoom:5%;" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
-- [Icon](content/icon/README.md)
-- [Image](content/image/README.md)
-- [Badge](content/badge/README.md)
-- [Card](content/card/README.md)
-- [ListTile](content/list_tile/README.md)
+- [RichText](content/text/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Nw411i7cN/)
+- [Icon](content/icon/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1KN411H7ja/)
+- [Image](content/image/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV16H4y1U7Hb/)
+- [Badge](content/badge/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Mu411c7SQ/)
+- [Card](content/card/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV12u411c7W4/)
+- [ListTile](content/list_tile/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1yF411D7YX/)
 
 ### Container Widgets
 
