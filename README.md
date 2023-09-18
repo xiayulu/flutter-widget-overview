@@ -22,7 +22,7 @@
 
 ### Content Widgets
 
-- [Text](content/text/README.md) [![](https://img.shields.io/badge/BiliBili-Text Widget-#00a1d6.svg?style=flat)](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
+- [Text](content/text/README.md) [![Bilibili](https://img.shields.io/badge/-BiliBili-#00a1d6.svg?style=flat)](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
 - [RichText](content/text/README.md)
 - [Icon](content/icon/README.md)
 - [Image](content/image/README.md)
