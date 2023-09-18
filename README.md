@@ -22,7 +22,7 @@
 
 ### Content Widgets
 
-- [Text](content/text/README.md)>>> [<img src="assets/image/bilibili.png" alt="Bilibili" style="zoom:5%;" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
+- [Text](content/text/README.md)>>> [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
 - [RichText](content/text/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" style="zoom:5%;" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
 - [Icon](content/icon/README.md)
 - [Image](content/image/README.md)
