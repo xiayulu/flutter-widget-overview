@@ -23,21 +23,28 @@ class ExAlertDialog extends StatelessWidget {
   Future<void> _showMyDialog(BuildContext context) async {
     return showDialog(
       context: context,
-      barrierDismissible: false, // user must tap button!
+      barrierDismissible: true,
+      // barrierColor: Colors.transparent,
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text('Cheat Sheet'),
           content: const SingleChildScrollView(
             child: ListBody(
-              children: <Widget>[
+              children: [
                 Text('This is a demo alert dialog.'),
                 Text('Would you like to approve of this message?'),
               ],
             ),
           ),
-          actions: <Widget>[
+          actions: [
             TextButton(
               child: const Text('Approve'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            TextButton(
+              child: const Text('Cancel'),
               onPressed: () {
                 Navigator.of(context).pop();
               },

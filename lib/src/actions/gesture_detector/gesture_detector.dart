@@ -5,7 +5,7 @@ class ExGestureDetector extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _buildBasic(context);
+    return ExGestureDetectorLight();
   }
 
   _buildBasic(BuildContext context) {
@@ -36,7 +36,7 @@ class ExGestureDetectorLight extends StatefulWidget {
 }
 
 class _ExGestureDetectorLightState extends State<ExGestureDetectorLight> {
-  bool _lightIsOn = false;
+  var _lightIsOn = false;
 
   @override
   Widget build(BuildContext context) {
@@ -61,6 +61,8 @@ class _ExGestureDetectorLightState extends State<ExGestureDetectorLight> {
                   _lightIsOn = !_lightIsOn;
                 });
               },
+              onDoubleTap: () => {},
+              onLongPress: () {},
               child: Container(
                 color: Colors.yellow.shade600,
                 padding: const EdgeInsets.all(8),

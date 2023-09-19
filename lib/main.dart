@@ -68,7 +68,7 @@ class MainApp extends StatelessWidget {
           centerTitle: true,
           title: Text("Flutter Built-in Widgets"),
         ),
-        body: ExButtonStyle(),
+        body: ExInteractiveViewer(),
       ),
     );
   }

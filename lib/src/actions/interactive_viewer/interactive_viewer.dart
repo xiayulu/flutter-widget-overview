@@ -9,13 +9,14 @@ class ExInteractiveViewer extends StatelessWidget {
       boundaryMargin: const EdgeInsets.all(20.0),
       child: Container(
         decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: <Color>[Colors.blue, Colors.yellow],
-            stops: <double>[0.0, 1.0],
-          ),
-        ),
+            // gradient: LinearGradient(
+            //   begin: Alignment.topCenter,
+            //   end: Alignment.bottomCenter,
+            //   colors: <Color>[Colors.blue, Colors.yellow],
+            //   stops: <double>[0.0, 1.0],
+            // ),
+            image:
+                DecorationImage(image: AssetImage("assets/image/food0.png"))),
       ),
     );
   }

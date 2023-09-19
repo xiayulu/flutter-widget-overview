@@ -26,6 +26,7 @@ class _ExDismissibleState extends State<ExDismissible> {
           background: Container(
             color: Colors.green,
           ),
+          direction: DismissDirection.endToStart,
           key: Key(items[index]),
           onDismissed: (DismissDirection direction) {
             setState(() {

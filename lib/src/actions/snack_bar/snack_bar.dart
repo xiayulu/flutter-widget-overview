@@ -36,11 +36,11 @@ class ExSnackbar extends StatelessWidget {
             action: SnackBarAction(
               label: 'Action',
               onPressed: () {
-                // Code to execute.
+                print("actions");
               },
             ),
             content: const Text('Awesome SnackBar!'),
-            duration: const Duration(milliseconds: 1500),
+            duration: const Duration(milliseconds: 2000),
             width: 280.0, // Width of the SnackBar.
             padding: const EdgeInsets.symmetric(
               horizontal: 8.0, // Inner padding for SnackBar content.

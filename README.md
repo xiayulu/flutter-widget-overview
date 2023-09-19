@@ -20,6 +20,10 @@
 
 ## Table of Contents
 
+### Before get started
+
+- [Setup Flutter Development Environment](lib/src/flutter_develop_env.md) 👉  [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1KP411h7H3/)
+
 ### Content Widgets
 
 - [Text](lib/src/content/text/README.md) 👉  [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
@@ -60,11 +64,11 @@
 ### Actions Widgets
 
 - [Buttons](actions/buttons/README.md)
-- [GestureDetector](actions/gesture_detector/README.md)
-- [AlertDialog](actions/alert_dialog/README.md)
-- [SnackBar](actions/snack_bar/README.md)
-- [Dismissible](actions/dismissible/README.md)
-- [InteractiveViewer](actions/interactive_viewer/README.md)
+- [GestureDetector](lib/src/actions/gesture_detector/README.md)
+- [AlertDialog](lib/src/actions/alert_dialog/README.md)
+- [SnackBar](lib/src/actions/snack_bar/README.md)
+- [Dismissible](lib/src/actions/dismissible/README.md)
+- [InteractiveViewer](lib/src/actions/interactive_viewer/README.md)
 
 ### Scrollable Widgets
 
