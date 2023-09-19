@@ -22,28 +22,28 @@
 
 ### Content Widgets
 
-- [Text](content/text/README.md)>>> [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
-- [RichText](content/text/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Nw411i7cN/)
-- [Icon](content/icon/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1KN411H7ja/)
-- [Image](content/image/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV16H4y1U7Hb/)
-- [Badge](content/badge/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Mu411c7SQ/)
-- [Card](content/card/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV12u411c7W4/)
-- [ListTile](content/list_tile/README.md)>>>[<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1yF411D7YX/)
+- [Text](lib/src/content/text/README.md) 👉  [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Hk4y1w7fq/)
+- [RichText](lib/src/content/text/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Nw411i7cN/)
+- [Icon](lib/src/content/icon/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1KN411H7ja/)
+- [Image](lib/src/content/image/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV16H4y1U7Hb/)
+- [Badge](lib/src/content/badge/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Mu411c7SQ/)
+- [Card](lib/src/content/card/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV12u411c7W4/)
+- [ListTile](lib/src/content/list_tile/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1yF411D7YX/)
 
 ### Container Widgets
 
-- [Container](container/container/README.md)
-- [Center](container/container/README.md)
-- [Align](container/container/README.md)
-- [SizedBox](container/container/README.md)
-- [DecoratedBox](container/container/README.md)
-- [LimitedBox](container/limited_box/README.md)
+- [Container](lib/src/container/container/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Wu411c7XN/)
+- [Center](lib/src/container/container/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1iw411i7wC/)
+- [Align](lib/src/container/container/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1kN411n77R/)
+- [SizedBox](lib/src/container/container/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Nz4y1L7yc/)
+- [DecoratedBox](lib/src/container/container/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Bh4y1A7pb/)
+- [LimitedBox](lib/src/container/limited_box/README.md)
 
 
 ### Layout Widgets
 
-- [MaterialApp](layout/materialapp/README.md)
-- [Scaffold](layout/scaffold/README.md)
+- [MaterialApp](lib/src/layout/materialapp/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV18H4y1S7PX/)
+- [Scaffold](lib/src/layout/scaffold/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />]()
 - [Flex](layout/flex/README.md)
 - [Row](layout/flex/README.md)
 - [Column](layout/flex/README.md)
@@ -73,7 +73,7 @@
 - [AnimatedList](scroll/animated_list/README.md)
 - [GridView](scroll/grid_view/README.md)
 - [PageView](scroll/page_view/README.md)
-- [CustomScrollView](scroll/custom_scroll_view/README.md)
+- [CustomScrollView](lib/src/scroll/custom_scroll_view/README.md)
 - [TabBarView](scroll/tabbar_view/README.md)
 - [Scrollable](scroll/scrollable/README.md)
 
