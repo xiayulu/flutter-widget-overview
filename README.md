@@ -52,13 +52,12 @@
 - [Row & Column](lib/src/layout/flex/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1hN411H7ak/)
 - [Expanded](lib/src/layout/flex/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1EP411b7j2/)
 - [Flow](lib/src/layout/flow/README.md)
-- [Wrap](lib/src/layout/flow/README.md)
-- [Stack](lib/src/layout/stack/README.md)
-- [Constraint](lib/src/layout/constraint/README.md)
+- [Wrap](lib/src/layout/flow/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Xp4y1c7fA/)
+- [Stack](lib/src/layout/stack/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Dh4y1A7My/)
+- [Constraint](lib/src/layout/constraint/README.md) 👉 [<img src="assets/image/bilibili.png" alt="Bilibili" width="48px" height="24px" />](https://www.bilibili.com/video/BV1Zj411k7mC/)
 - [LayoutBuilder](lib/src/layout/layout_builder/README.md)
 - [BaseLine](lib/src/container/baseline/README.md)
 - [NavigationBar](lib/src/layout/navigation_bar/README.md)
-
 
 ### Actions Widgets
 
