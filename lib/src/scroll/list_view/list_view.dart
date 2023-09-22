@@ -9,21 +9,22 @@ class ExListView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return _buildBasic();
+    return _buildSeparated();
   }
 
   Widget _buildBasic() {
     return ListView.builder(
       padding: const EdgeInsets.all(8),
-      itemCount: 20,
-      // itemExtent:100,
-      prototypeItem: Container(
-        height: 100,
-        color: Color(Random().nextInt(0xffffff)).withOpacity(1),
-        child: Center(
-          child: Text('Entry 6'),
-        ),
-      ),
+      itemCount: 40,
+      primary: true,
+      // itemExtent:50,
+      // prototypeItem: Container(
+      //   height: 100,
+      //   color: Color(Random().nextInt(0xffffff)).withOpacity(1),
+      //   child: Center(
+      //     child: Text('Entry 6'),
+      //   ),
+      // ),
       itemBuilder: (BuildContext context, int index) {
         return Container(
           height: 50,
@@ -38,6 +39,8 @@ class ExListView extends StatelessWidget {
 
   Widget _buildSeparated() {
     return ListView.separated(
+      reverse: true,
+      primary: true,
       padding: const EdgeInsets.all(8),
       itemCount: 20,
       itemBuilder: (BuildContext context, int index) {
@@ -49,7 +52,8 @@ class ExListView extends StatelessWidget {
           ),
         );
       },
-      separatorBuilder: (context, index) => Divider(
+      separatorBuilder: (context, index) => Container(
+        height: 12,
         color: Colors.red,
       ),
     );

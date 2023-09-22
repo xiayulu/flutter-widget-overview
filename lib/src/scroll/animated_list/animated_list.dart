@@ -18,7 +18,7 @@ class _ExAnimatedListState extends State<ExAnimatedList> {
   @override
   void initState() {
     for (var i = 0; i < counter; i++) {
-      data.add('${i + 1}');
+      data.add('item ${i + 1}');
     }
     super.initState();
   }
@@ -54,7 +54,7 @@ class _ExAnimatedListState extends State<ExAnimatedList> {
       right: 0,
       child: FloatingActionButton(
         onPressed: () {
-          data.add('${++counter}');
+          data.add('item ${++counter}');
           // update key
           globalKey.currentState!.insertItem(data.length - 1);
           print('add $counter');
@@ -96,7 +96,7 @@ class _ExAnimatedListState extends State<ExAnimatedList> {
             ),
           );
         },
-        duration: Duration(milliseconds: 200),
+        duration: Duration(milliseconds: 1000),
       );
     });
   }

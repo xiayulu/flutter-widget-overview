@@ -15,10 +15,10 @@ class ExSingleChildScrollView extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: List.generate(
-          4,
+          12,
           (index) => Container(
             color: Color(math.Random().nextInt(0xffffff)).withOpacity(1),
-            height: 255,
+            height: 72,
             alignment: Alignment.center,
             child: Text(
               '$index',

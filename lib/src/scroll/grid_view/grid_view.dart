@@ -24,10 +24,10 @@ class ExGridView extends StatelessWidget {
   Widget _buildDelegateCount() {
     return GridView.builder(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 3,
+        crossAxisCount: 4,
         mainAxisSpacing: 16,
         crossAxisSpacing: 8,
-        childAspectRatio: 2,
+        // childAspectRatio: 0.5,
       ),
       itemCount: icons.length,
       itemBuilder: (context, index) => Container(
@@ -44,9 +44,7 @@ class ExGridView extends StatelessWidget {
       width: 300,
       child: GridView.builder(
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-          maxCrossAxisExtent: 99,
-          mainAxisSpacing: 16,
-          crossAxisSpacing: 8,
+          maxCrossAxisExtent: 99, // (total / max).ceil()
           childAspectRatio: 2,
         ),
         itemCount: icons.length,
