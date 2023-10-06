@@ -16,7 +16,8 @@ class ExPageView extends StatelessWidget {
     return PageView.builder(
       controller: controller,
       itemCount: 4,
-      // scrollDirection: Axis.vertical,
+      scrollDirection: Axis.vertical,
+      onPageChanged: (value) => print(value),
       itemBuilder: (context, index) => Container(
         color: Color(Random().nextInt(0xffffff)).withOpacity(0.4),
         alignment: Alignment.center,
@@ -31,7 +32,7 @@ class ExPageView extends StatelessWidget {
   Widget _buildKeepAlive() {
     return PageView.builder(
       itemCount: 4,
-      // scrollDirection: Axis.vertical,
+      scrollDirection: Axis.vertical,
       itemBuilder: (context, index) => index & 1 == 1
           ? Container(
               color: Color(Random().nextInt(0xffffff)).withOpacity(0.4),

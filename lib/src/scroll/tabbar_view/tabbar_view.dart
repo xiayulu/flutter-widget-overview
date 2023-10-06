@@ -17,9 +17,9 @@ class ExTabBarView extends StatelessWidget {
           toolbarHeight: 0,
           bottom: TabBar(
             labelColor: Colors.black87,
-            // indicator: BoxDecoration(
-            //   color: Colors.amber.shade100
-            // ),
+            indicator: BoxDecoration(
+                color: Colors.amber.shade100,
+                borderRadius: BorderRadius.circular(8)),
             indicatorColor: Colors.amber,
             indicatorSize: TabBarIndicatorSize.label,
             tabs: tabs.map((e) => Tab(text: e)).toList(),

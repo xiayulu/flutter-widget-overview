@@ -11,6 +11,7 @@ class ExTextField extends StatefulWidget {
 
 class _ExTextFieldState extends State<ExTextField> {
   late TextEditingController _controller;
+  var name = "";
 
   @override
   void initState() {
@@ -28,39 +29,57 @@ class _ExTextFieldState extends State<ExTextField> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: TextField(
-          controller: _controller,
-          obscureText: false,
-          autofocus: true,
-          cursorWidth: 1,
-          keyboardType: TextInputType.datetime,
-          decoration: const InputDecoration(
-            border: OutlineInputBorder(),
-            labelText: 'Password',
-            prefixIcon: Icon(Icons.key),
-          ),
-          onSubmitted: (String value) async {
-            await showDialog<void>(
-              context: context,
-              builder: (BuildContext context) {
-                return AlertDialog(
-                  title: const Text('Thanks!'),
-                  content: Text(
-                      'You typed "$value", which has length ${value.characters.length}.'),
-                  actions: [
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                      child: const Text('OK'),
-                    ),
-                  ],
+      body: Column(
+        children: [
+          Text("you input ${_controller.text}"),
+          Center(
+            child: TextField(
+              // controller: _controller,
+              obscureText: true,
+              obscuringCharacter: "*",
+              autofocus: true,
+              cursorWidth: 1,
+              cursorHeight: 24,
+              keyboardType: TextInputType.url,
+              decoration: const InputDecoration(
+                contentPadding: EdgeInsets.only(bottom: 12),
+                border: OutlineInputBorder(
+                  borderSide: BorderSide(color: Colors.red),
+                ),
+                labelText: 'Password',
+                helperText: "Pass",
+                errorText: "Error",
+                prefixIcon: Icon(Icons.key),
+                suffixIcon: Icon(Icons.check),
+              ),
+              onSubmitted: (String value) async {
+                await showDialog<void>(
+                  context: context,
+                  builder: (BuildContext context) {
+                    return AlertDialog(
+                      title: const Text('Thanks!'),
+                      content: Text(
+                          'You typed "$value", which has length ${value.characters.length}.'),
+                      actions: [
+                        TextButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          child: const Text('OK'),
+                        ),
+                      ],
+                    );
+                  },
                 );
               },
-            );
-          },
-        ),
+              onChanged: (String value) {
+                setState(() {
+                  name = value;
+                });
+              },
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -128,7 +147,7 @@ class _ExTextFieldFocusState extends State<ExTextFieldFocus> {
             },
           ),
         ],
-      ),
+      ), 
     );
   }
 }

@@ -37,10 +37,13 @@ class _ExFormState extends State<ExForm> {
               onPressed: () {
                 // Validate will return true if the form is valid, or false if
                 // the form is invalid.
-                if (_formKey.currentState!.validate()) {
+                if (!_formKey.currentState!.validate()) {
                   // Process data.
-                  print("ok");
+                  // handler error
+                  return;
                 }
+
+                // api call
               },
               child: const Text('Submit'),
             ),

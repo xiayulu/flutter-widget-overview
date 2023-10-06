@@ -26,12 +26,10 @@ class ExCustomScrollView extends StatelessWidget {
   }
 
   Widget _buildTwoSliverList() {
-    var listView = SliverFixedExtentList(
-      itemExtent: 56,
-      delegate: SliverChildBuilderDelegate(
-        (_, index) => ListTile(title: Text('$index')),
-        childCount: 10,
-      ),
+    var listView = SliverList.separated(
+      itemBuilder: (_, index) => ListTile(title: Text('$index')),
+      separatorBuilder: (context, index) => Divider(),
+      itemCount: 10,
     );
 
     return CustomScrollView(
@@ -57,6 +55,13 @@ class ExCustomScrollView extends StatelessWidget {
               ),
             ),
           ),
+          SliverToBoxAdapter(
+            child: Container(
+              color: Colors.red,
+              height: 50,
+              child: Text("A 股"),
+            ),
+          ),
           SliverPadding(
             padding: const EdgeInsets.all(8.0),
             sliver: SliverGrid(
@@ -76,6 +81,13 @@ class ExCustomScrollView extends StatelessWidget {
                 },
                 childCount: 20,
               ),
+            ),
+          ),
+          SliverToBoxAdapter(
+            child: Container(
+              color: Colors.green,
+              height: 50,
+              child: Text("P 股"),
             ),
           ),
           SliverFixedExtentList(
